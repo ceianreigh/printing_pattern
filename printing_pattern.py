@@ -4,9 +4,10 @@
 
 # add the rows of pattern
 rows = 5
-print(rows)
+
 # create a for loop to iterate through the rows
-
-# create a nested for loop to iterate through the columns
-
-# print the pattern
+for i in range(rows + 1):
+    # create a nested for loop to iterate through the columns
+    for j in range(i):
+        # print the pattern
+        print(i, end=" ")
