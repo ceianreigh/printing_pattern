@@ -11,3 +11,5 @@ for i in range(rows + 1):
     for j in range(i):
         # print the pattern
         print(i, end=" ")
+    # print on separate lines
+    print("")
